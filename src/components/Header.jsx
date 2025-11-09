@@ -3,6 +3,7 @@ import Logo from "../assets/logo.svg";
 import { LuChevronDown } from "react-icons/lu";
 import { LuSunMedium } from "react-icons/lu";
 import { MdOutlineLogin } from "react-icons/md";
+import Button from './Button';
 
 const Header = () => {
   return (
@@ -27,9 +28,7 @@ const Header = () => {
           <div className="hidden lg:block p-[14px] rounded-full bg-[#272727] text-[18px] cursor-pointer">  
             <LuSunMedium />
           </div>
-          <button className="py-[15px] px-[26px] cursor-pointer rounded-full bg-[#299764] flex items-center gap-[10px]">
-            Login <MdOutlineLogin className="text-[20px]" />
-          </button>
+          <Button name='Login' icon={<MdOutlineLogin />} />
         </div>
       </div>
     </header>
