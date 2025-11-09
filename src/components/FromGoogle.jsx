@@ -7,7 +7,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
 const FromGoogle = () => {
   return (
-    <div className="bg-[#272727] py-[60px] px-[16px] xl:px-0">
+    <div className="hidden lg:block bg-[#272727] py-[60px] px-[16px] xl:px-0">
       <div className="max-w-[1220px] mx-auto rounded-[20px] overflow-hidden flex items-center text-white">
         <div className="bg-[#1C1C1C] w-[40%] p-[50px] h-[480px]">
           <div className="flex items-center gap-[10px]">
